@@ -10,9 +10,9 @@ import shap
 import datetime as dt
 
 # load data
-df_test = pd.read_csv("../../Data/finals_datasets/sample_test_all_fs.csv", index_col='SK_ID_CURR')
+df_infos = pd.read_csv("../../Data/finals_datasets/df_current_clients_fs_site.csv", index_col='SK_ID_CURR')
 
-df_infos = pd.read_csv("../../Data/finals_datasets/sample_test_infos_fs.csv", index_col='SK_ID_CURR')
+df_test = pd.read_csv("../../Data/finals_datasets/df_clients_to_predict_fs_site.csv", index_col='SK_ID_CURR')
 
 df_feat_imp = pd.read_csv("../../Data/finals_datasets/df_fs.csv")
 
