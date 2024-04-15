@@ -1,0 +1,41 @@
+/* Custom CSS for Streamlit frontend */
+
+/* Page title */
+body {
+    font-family: "Avenir", sans-serif;
+}
+h1 {
+    font-family: "Your Font Name", sans-serif;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Subheadings */
+h3 {
+    text-align: center;
+    font-family: "Your Font Name", sans-serif;
+    color: #5A5E6B;
+}
+
+/* Success message */
+.success {
+    font-family: "Your Font Name", sans-serif;
+    color: green;
+}
+
+/* Error message */
+.error {
+    font-family: "Your Font Name", sans-serif;
+    color: red;
+}
+
+/* Gauge chart */
+.gauge-chart {
+  /* Add your custom styles for the gauge chart here */
+}
+
+/* Checkbox */
+.checkbox {
+  /* Add your custom styles for the checkbox here */
+}
