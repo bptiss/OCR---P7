@@ -32,12 +32,12 @@ on:
 
 env:
   AWS_REGION: 'eu-west-3c'                  # set this to your preferred AWS region, e.g. us-west-1
-  ECR_REPOSITORY: 'OCR_P7'                    # set this to your Amazon ECR repository name
-  ECS_SERVICE: 'test_serv'                 # set this to your Amazon ECS service name
-  ECS_CLUSTER: 'TEST'                   # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: 'site/test_task_def-revision1.json' # set this to the path to your Amazon ECS task definition
+  ECR_REPOSITORY: 'ocr_p7'                    # set this to your Amazon ECR repository name
+  ECS_SERVICE: 'DevCluster_serv'                 # set this to your Amazon ECS service name
+  ECS_CLUSTER: 'DevCluster'                   # set this to your Amazon ECS cluster name
+  ECS_TASK_DEFINITION: 'site/DevCluster_TaskDef-revision1.json' # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
-  CONTAINER_NAME: 'test_container'           # set this to the name of the container in the
+  CONTAINER_NAME: 'DevCluster_Task_Cont'           # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
 
 permissions:
