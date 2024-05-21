@@ -14,7 +14,7 @@ import datetime as dt
 from urllib.parse import urljoin
 
 # local
-API_URL = "http://localhost:5555/"
+API_URL = "http://172.31.21.206:5555/"
 # link aws:
 # API_URL = "https://mc-credit-score-2.herokuapp.com/"
 
